@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    
+}
+/* ******* */
+section{
+    margin: 120px 140px;
+}
+
+
+
+/* header start */
+header{
+    /* width: 1320px;
+    height: 600px; */
+   
+    background-image: url('../resources/Banner\ Image.png'), linear-gradient(90deg, #19110e 0%, rgba(241, 91, 34, 0.00) 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    margin: 50px 120px 120px 120px;
+}
+
+.banner{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h3{
+    color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 16px;
+text-shadow: 4px 4px 6px #08d93f;
+}
+
+.banner-title{
+    color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px;
+text-shadow: 2px 12px 11px #5500d9;
+}
+
+/* header end */
+
+
+/* off section start  */
+
+.off-section{
+    margin: 1px 400px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.off-section .highlight-heading {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off-section h5{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+}
+.off-section h1{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.off-section img{
+    /* fill: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    width: 803px;
+    height: 500px;
+    margin: 32px;
+}
+
