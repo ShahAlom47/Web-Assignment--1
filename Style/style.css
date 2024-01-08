@@ -197,7 +197,7 @@ header {
     ;
     padding: 100px;
     text-align: center;
-   
+
 }
 
 #date-addres .pdt {
@@ -208,7 +208,7 @@ header {
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
-   
+
 
 }
 
@@ -249,7 +249,7 @@ header {
     margin: 48px;
 }
 
-.pdt-join-btn:hover{
+.pdt-join-btn:hover {
     /* border: 3px solid rgba(0, 0, 0, 0.488); */
     background: rgb(197, 8, 8);
 }
@@ -258,18 +258,19 @@ header {
 
 /* coming soon offer  section start  */
 
-.coming-offer{
+.coming-offer {
     display: flex;
     background: #FFF;
     justify-content: space-between;
 }
 
-.ofr-left-box{
+.ofr-left-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.l-title{
+
+.l-title {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
@@ -278,80 +279,439 @@ header {
     line-height: normal;
 }
 
-.l-heading{
+.l-heading {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
 
 }
-.l-description{
+
+.l-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
 }
 
-.ofr-img-box{
+.ofr-img-box {
+    /* margin: auto 1px; */
 
 }
 
-.red-border{
+.red-border {
     padding: 50px;
     border-radius: 463px;
     border: 15px solid #F00;
-    margin: 1px 60px;
+    margin: 1px 50px;
 }
 
 /* .img-border{
 
 } */
-.red-border img{
+.red-border img {
     /* width: 364.844px;
 height: 364.844px; */
-border-radius: 463px;
+    border-radius: 463px;
 
 }
 
-.ofr-right-box{
+.ofr-right-box {
     display: flex;
     align-items: end;
-    padding-top: 112px;
+
 
 }
-/* .r-container{
-    height: 70%;
 
-} */
+.r-container {}
 
-.r-heding{
+.r-heding {
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
 }
-.r-para{
+
+.r-para {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
 }
 
 
-.ofr-right-box img{
+.ofr-right-box img {
     width: 140px;
-height: 140px;
-flex-shrink: 0;
+    height: 140px;
+    flex-shrink: 0;
 
 }
 
+/* offer section end  */
+
+/* h.day sals start  */
+
+.holi-sals {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.sale-text-box {
+    text-align: center;
+    margin: 65px 10%;
+
+}
+
+.sale-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.sale-heading {
+    color: #F00;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sale-heading span {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+
+.sale-discription {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    margin: 25px 2px;
+}
+
+.img-container {}
+
+.top-img {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top-img img {
+    width: 35%;
+
+    flex-shrink: 0;
+    background: url('../resources/Group\ 44.png') no-repeat center center;
+
+}
+
+.empty {
+    width: 65%;
+    background: #FFF;
+}
+
+.top-img .over {
+    position: relative;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    transform: translate(-150%, -11%);
+}
+
+
+
+
+.red-bottom {
+    /* width: 100%; */
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
+
+
+
+
+/* sels section end  */
+
+
+/* Portfolio  sction start  */
+
+.portfolio-container {
+    margin: auto;
+    max-width: 1700px;
+}
+
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+
+}
+
+.portfolio-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin: 22px 0px;
+}
+
+.img-box {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.img-box .img-row {
+
+    display: flex;
+    gap: 24px;
+}
+
+.portfolio-photo {
+    width: 33%;
+}
+
+.portfolio-photo:hover {
+    transform: scale(1.1);
+}
+
+/* portfolio end 
+ */
+
+/* subcribe secton start  */
+
+
+.subscribe-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 216px;
+
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    border: #070211 solid 2px;
+}
+
+.subscribe-sec img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe-para {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin: 22px;
+}
+
+
+.subscribe-form {
+    display: flex;
+
+    width: 648px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.subscribe-form input {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    width: 70%;
+    height: 72px;
+    flex-shrink: 0;
+    border: none;
+    background-color: #ffffff;
+    padding: 0px 30px;
+
+}
+
+.subscribe-form input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    /* padding: 5px 30px; */
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subscribe-btn {
+    width: 30%;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe-btn:hover{
+    background: rgb(139, 4, 4);
+}
+
+/* subcribe secton end  */
+
+/* footerstart  */
+
+footer {
+
+    padding: 140px;
+    background: #070211;
+
+
+
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-box {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.contact-box p,
+a {
+    padding: 5px;
+    font-family: Inter;
+}
+
+.contact-box a {
+    color: #FFF;
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.mobile-no,
+.webside-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links a {}
+
+
+
+.footer-links a img {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    padding: 40px 24px;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
