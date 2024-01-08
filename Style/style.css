@@ -364,8 +364,9 @@ height: 364.844px; */
 /* h.day sals start  */
 
 .holi-sals {
-    border: 2px solid black;
+
     text-align: center;
+    
 }
 
 .sale-text-box {
@@ -418,46 +419,72 @@ height: 364.844px; */
     margin: 25px 2px;
 }
 
-.img-container {}
 
-.top-img {
+
+
+.container {
+    /* width: 1320px;
+    height: 630px;
+    position: relative; */
     display: flex;
-    justify-content: space-between;
-
-}
-
-.top-img img {
-    width: 35%;
-
-    flex-shrink: 0;
-    background: url('../resources/Group\ 44.png') no-repeat center center;
-
-}
-
-.empty {
-    width: 65%;
-    background: #FFF;
-}
-
-.top-img .over {
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+   
+  }
+  .sub-container{
+    display: flex;
+  }
+  
+  .right-section {
+    width: 40%;
+    /* height: 630px; */
+    float: right;
     position: relative;
+  
+  }
+  .left-section{
+    width: 60%;
+    /* border: solid #19110e 3px; */
+    float: left;
     position: relative;
+  }
+
+  .overlap-image-2 {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-53%, -53%);
+
+
+  
+  
+  }
+  
+
+
+  .right-section img {
+    width: 100%;
+    height: 433px;
+    display: block;
+  }
+  
+  .overlap-image {
+    position: absolute;
     top: 50%;
-    left: 35%;
-    transform: translate(-150%, -11%);
-}
-
-
-
-
-.red-bottom {
-    /* width: 100%; */
-    height: 229px;
-    border-radius: 16px 0px 16px 16px;
-    background: #F00;
-}
-
-
+    left: 0%;
+    transform: translate(-50%, -50%);
+  
+  
+  }
+  
+  .bottom-section {
+    width: 100%; /* Remaining width after deducting the right section */
+    height: 230px;
+    float: bottom;
+    background-color: red;
+   
+  }
 
 
 /* sels section end  */
